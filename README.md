@@ -1,3 +1,6 @@
+# evionica to capzlog.aero
+This script transforms an evionica logbook csv export to the format needed in order to be imported into [capzlog](https://capzlog.aero/) format.
+
 ## Prerequesites
 
 1. Have `ruby` and `bundler` installed, versions don't matter.
