@@ -9,7 +9,7 @@
 3. Enter your skilltest's DPE name to be able to label the skilltest as PIC time.
 4. Enter the source csv as pathname (or add it as `source.csv` in the same folder and just click enter).
 5. Enter the desired destination csv folder as pathname (or leave it empty to create a `destination.csv` file in your current folder).
-6. Take the generated `destination.csv` and add it to `https://capzlog.aero/data/bulkimport`.
+6. Take the generated `destination.csv` and add it to https://capzlog.aero/data/bulkimport.
 
 ## Notes
 1. Ensure the format is correct. The capzlog app should give you the following view after adding the file:
