@@ -67,11 +67,9 @@ def convert_csv(input_file, output_file, user_name, dpe_name)
 
   CSV.open(output_file, "wb") do |csv|
     SmarterCSV.process(input_file, options) do |chunk|
-      chunk.each_with_index do |row, index|
-        next csv << EXPECTED_HEADERS if csv.lineno.zero?
+      csv << EXPECTED_HEADERS if csv.lineno.zero?
 
-        csv << convert_row(row, user_name, dpe_name)
-      end
+      chunk.each { |row| csv << convert_row(row, user_name, dpe_name) }
     end
   end
 end
