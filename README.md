@@ -19,5 +19,5 @@
 <img width="1019" alt="image" src="https://github.com/user-attachments/assets/2e082dc0-e050-43c9-86fe-8fb388a906e3">
 
 3. You should now get a success screen showing the import results. Be sure to check the entries and correct any mistakes. Enjoy!
-4. <img width="812" alt="image" src="https://github.com/user-attachments/assets/548ad903-4368-4903-912b-a74049be74be">
+<img width="812" alt="image" src="https://github.com/user-attachments/assets/548ad903-4368-4903-912b-a74049be74be">
 
